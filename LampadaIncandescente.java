@@ -1,12 +1,12 @@
 
 public class LampadaIncandescente{
 
-    private boolean estadoDaLampada;
+    private boolean estadoDaLampada; //Atributo
 
-    public LampadaIncandescente(){
+    public LampadaIncandescente(){ //Método Construtor
         estadoDaLampada = false;
     }
-    public void acende(){
+    public void acende(){         //Demais métodos
         estadoDaLampada = true;
     }
     public void apaga(){
